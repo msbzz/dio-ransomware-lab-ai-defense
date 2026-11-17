@@ -1,0 +1,30 @@
+# Ambiente virtual
+.venv/
+.venv-build38/
+venv/
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Arquivos temporários
+*.tmp
+*.log
+
+# Executáveis e compilação
+dist/
+build/
+*.exe
+*.spec
+
+# Chaves e artefatos de criptografia gerados em testes
+*.key
+*.encrypted
+operacoes.jsonl
+
+# Credenciais locais
+*.xml
+
+# Configurações locais
+.vscode/
